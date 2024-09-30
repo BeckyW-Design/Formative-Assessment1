@@ -25,6 +25,7 @@ p {
     text-align: right;
     padding-top: 150px;
     padding-right: 0%;
+    margin-bottom: 0;
 }
 
 #herotext {
@@ -33,6 +34,54 @@ p {
     max-width: fit-content;
     padding-left: 40px;
 }
+
+/* Buttons */
+
+#buttons{
+    font-family: "Merriweather" serif;
+    font-weight: bold;
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#7FD1AE;
+
+}
+
+
+.what-is-sg {
+    color: #5f366f;
+    background-color: #cdcdd2;
+    border-width: 2px;
+    border-color:#5f366f;
+}
+
+.what-is-sg:hover {
+    color:#B0B1BF;
+    background-color: #5f366f;
+    border-color: #5f366f;
+}
+
+.sg-signs {
+    color: #5f366f;
+    background-color: #cdcdd2;
+    border-width: 2px;
+    border-color:#5f366f;
+}
+
+.sg-signs:hover {
+    color:#698BF5;
+    background-color: #5f366f;
+    border-color: #5f366f;
+}
+
+.sg-worried  {
+    color: #2c2031;
+    background-color: #698BF5;
+    border-width: 2px;
+    border-color:#2c2031;
+}
+
+
 
 /* Media query */
 
@@ -46,3 +95,5 @@ p {
     
     }
 }
+
+    #buttons {
