@@ -12,6 +12,25 @@ p {
     font-weight:200;
 }
 
+/* Navbar */
+
+.custom-nav {
+    color:#cdcdd2;
+    background-color: #268d84;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 0%;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left:0px
+}
+
+.fa-gratipay {
+    font-size: 1.5rem;
+    color:#cdcdd2;
+}
+
 /* Hero */
 .jumbotron {
     background-image: url("../images/beachandrainbow.jpg");
@@ -44,7 +63,6 @@ p {
     display: flex;
     justify-content: space-around;
     background-color:#7FD1AE;
-
 }
 
 .sg-signs:hover {
@@ -100,3 +118,5 @@ p {
 }
 
     #buttons {
+        display: flex;
+        flex-wrap: wrap;
