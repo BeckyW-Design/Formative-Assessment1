@@ -59,68 +59,27 @@ p {
 
 /* Buttons */
 
-#buttons-group{
+.buttons {
     background-color:#268d84;
+    color:#cdcdd2;
     font-family: "Merriweather" serif;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;  
-}
-
-.buttons{
-    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
-.sg-signs:hover {
-    color: #268d84;
-    background-color: #cdcdd2;
-    border-width: 5px;
-    border-color:#268d84;
-}
 
-.sg-signs {
+    #referal-button {
+    background-color:#268d84;
     color:#cdcdd2;
-    background-color: #5f366f;
-    border-color: #5f366f;
+    font-family: "Merriweather" serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
-
-.what-is-sg:hover {
-    color: #268d84;
-    background-color: #cdcdd2;
-    border-width: 5px;
-    border-color:#268d84;
-}
-
-.what-is-sg {
-    color:#cdcdd2;
-    background-color: #5f366f;
-    border-color: #5f366f;
-}
-
-.sg-worried:hover {
-    color: #268d84;
-    background-color: #cdcdd2;
-    border-width: 5px;
-    border-color:#268d84;
-}
-
-.sg-worried {
-    color:#cdcdd2;
-    background-color: #5f366f;
-    border-color: #5f366f;
-}
-
-.sg-card {
-    align-content: center;
-    padding-top: 10px;
-}
-
-    #buttons {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     /*form */
     #referral-form {
@@ -130,7 +89,7 @@ p {
         padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 50px;
-        text-align: center;
+        text-align: center;    
     }
 
     #form-picture {
@@ -140,13 +99,24 @@ p {
     }
 
     .form-page {
-        background-color:rgba(205, 205, 210,.4);
+        background-color:#cdcdd2;
     }
 
     .form-questions {
         padding-top: 40px;
     }
 
+    /* safeguarding */
+
+    .card-header {
+        background-color: #5f366f;
+        color: #cdcdd2;
+        font-size: 2.5rem;
+        font-family:"Merriweather" serif;
+        border: 0;
+        padding-top: 20px;
+    }
+    
     /* Media query */
     @media only screen and (min-width: 768px) {
         #referral-form {
