@@ -51,7 +51,7 @@ p {
 }
 
 #herotext {
-    background-color: #rgba(38, 141, 132, .6);
+    background-color: rgba(127, 209, 174, .5);
     position: absolute;
     max-width: fit-content;
     padding-left: 40px;
@@ -110,6 +110,11 @@ p {
     color:#cdcdd2;
     background-color: #5f366f;
     border-color: #5f366f;
+}
+
+.sg-card {
+    align-content: center;
+    padding-top: 10px;
 }
 
 /* Media query */
