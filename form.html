@@ -42,15 +42,63 @@
         </nav>
     </header>
 
-    <main>
-        <form>
-            <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+    <main class="form-page">
+            <section id="referral-form">
+                <form>
+                    <h4>Are you or the person you are concerned about in immediate danger of harm?</h4>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" data-toggle="modal" data-target="#myModal">
+                        <label class="custom-control-label" for="customRadioInline1">Yes</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">No</label>
+                    </div>  
+                       
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Please seek immediate support</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Please find a place of safety and dial 999.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Form-->
+            <div class="mb-3 form-questions">
+                <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
               </div>
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
-        </form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">What are your concerns</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please document your concerns in as much detail as possible."></textarea>
+              </div>
+              
+            </form>
+        </section>
+            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+            </body>
+            </html>
     </main>
