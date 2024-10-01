@@ -29,11 +29,6 @@ p {
 }
 
 
-.fa-gratipay {
-    font-size: 1.5rem;
-    color:#cdcdd2;
-}
-
 /* Hero */
 .jumbotron {
     background-image: url("../images/beachandrainbow.jpg"); opacity: 0.75;
@@ -45,30 +40,41 @@ p {
     height:400px;
     color: #082485;
     font-weight: 700;
-    text-align: right;
+    text-align: center;
     padding-top: 150px;
-    padding-right: 0%;
     margin-bottom: 0;
 }
 
 
 /*Cards*/
 
-.card-body{
-    background-color: #cdcdd2;
-    color: #082485;
+#card-signs .card{
+    background-color:#082485 #;
+    color:cdcdd2;
+    font-size: 2.5rem;
+    font-family:"Merriweather" serif;
+    border: 0;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-.card-header {
-    background-color: #5f366f;
+#card-sg .card {
+    background-color: #082485;
     color: #cdcdd2;
     font-size: 2.5rem;
     font-family:"Merriweather" serif;
     border: 0;
     padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-.card-body h1 {
+.card-body h4 {
+    text-align: center;
+}
+
+#sg-button .btn-primary {
     text-align: center;
 }
 
@@ -94,20 +100,21 @@ p {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
-    #referal-button {
-    background-color:#268d84;
-    color:#cdcdd2;
+    #referral-button {
+    color:#268d84;
     font-family: "Merriweather" serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
 }
+
+    .fa-house {
+        color: #cdcdd2;
+        font-size: 2rem;
+        padding-bottom: 50px;
+    }
 
     /*form */
     #referral-form {
@@ -117,7 +124,7 @@ p {
         padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 50px;
-        text-align: center;    
+        text-align: left;    
     }
 
     #form-picture {
@@ -151,6 +158,7 @@ p {
     footer i a {
         font-size: 1.5rem;
     }
+
     
     /* Media query */
     @media only screen and (min-width: 768px) {
