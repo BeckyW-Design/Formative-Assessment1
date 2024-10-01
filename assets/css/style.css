@@ -15,16 +15,19 @@ p {
 /* Navbar */
 
 .custom-nav {
-    color:#cdcdd2;
+
     background-color: #268d84;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 0.75rem;
     margin-bottom: 0%;
     text-align: center;
     text-decoration: none;
     position:absolute;
-    left:0px
+    left:0px;
+    padding-top:25px;
+    padding-bottom:5;
 }
+
 
 .fa-gratipay {
     font-size: 1.5rem;
@@ -33,11 +36,11 @@ p {
 
 /* Hero */
 .jumbotron {
-    background-image: url("../images/beachandrainbow.jpg");
+    background-image: url("../images/beachandrainbow.jpg"); opacity: 0.75;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #698BF5;
+    background-color: #cdcdd2;
     position: relative;
     height:400px;
     color: #5f366f;
@@ -48,7 +51,7 @@ p {
 }
 
 #herotext {
-    background-color: rgb(127, 209, 174, .7);
+    background-color: #rgba(38, 141, 132, .6);
     position: absolute;
     max-width: fit-content;
     padding-left: 40px;
@@ -56,14 +59,19 @@ p {
 
 /* Buttons */
 
-#buttons{
+#buttons-group{
+    background-color:#268d84;
     font-family: "Merriweather" serif;
     font-weight: bold;
-    padding: 50px 20px 50px 20px;
     display: flex;
     justify-content: space-around;
-    background-color:#7FD1AE;
+    flex-wrap: wrap;  
 }
+
+.buttons{
+    margin: 5px;
+}
+
 
 .sg-signs:hover {
     color: #268d84;
