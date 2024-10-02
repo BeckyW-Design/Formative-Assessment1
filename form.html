@@ -50,11 +50,11 @@
                 <h4>Are you or the person you are concerned about in immediate danger of harm?</h4>
                 <div class="custom-control custom-radio custom-control-inline">
                     <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input"
-                        data-toggle="modal" data-target="#myModal">
+                        data-toggle="modal" data-target="#myModal" required>
                     <label class="custom-control-label" for="customRadioInline1">Yes</label>
                 </div>
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" required>
                     <label class="custom-control-label" for="customRadioInline2">No</label>
                 </div>
 
@@ -82,21 +82,21 @@
                 <!--Form-->
                 <div class="mb-3 form-questions">
                     <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                        placeholder="name@example.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">What are your concerns</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Please document your concerns in as much detail as possible."></textarea>
+                        placeholder="Please document your concerns in as much detail as possible." required></textarea>
                 </div>
                 <div id="referral-button">
                 <button>Send Referral</button>
