@@ -2,45 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /* headers */
-h1,h2, {
-    font-family:"Merriweather" serif;
-    font-weight:400;
+h1,
+h2,
+    {
+    font-family: "Merriweather"serif;
+    font-weight: 400;
 }
 
 p {
     font-family: "Manrope", sans-serif;
-    font-weight:200;
+    font-weight: 200;
 }
 
 /* Navbar */
 
 .custom-nav {
 
-    background-color:#082485;
+    background-color: #082485;
     font-weight: bolder;
     font-size: 0.75rem;
     margin-bottom: 0%;
     text-align: center;
     text-decoration: none;
-    position:absolute;
-    left:0px;
-    padding-top:25px;
-    padding-bottom:5;
+    position: absolute;
+    left: 0px;
+    padding-top: 25px;
+    padding-bottom: 5;
 }
 
 /* Body */
 
-body {background-color: #cdcdd2;}
+body {
+    background-color: #cdcdd2;
+}
 
 /* Hero */
 .jumbotron {
-    background-image: url("../images/beachandrainbow.jpg"); opacity: 0.75;
+    background-image: url("../images/beachandrainbow.jpg");
+    opacity: 0.75;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cdcdd2;
     position: relative;
-    height:400px;
+    height: 400px;
     color: #082485;
     font-weight: 700;
     text-align: center;
@@ -51,11 +56,11 @@ body {background-color: #cdcdd2;}
 
 /*Cards*/
 
-#card-signs .card{
-    background-color:#082485 #;
-    color:cdcdd2;
+#card-signs .card {
+    background-color: #082485 #;
+    color: cdcdd2;
     font-size: 2.5rem;
-    font-family:"Merriweather" serif;
+    font-family: "Merriweather"serif;
     border: 0;
     padding-top: 20px;
     padding-left: 60px;
@@ -64,7 +69,7 @@ body {background-color: #cdcdd2;}
 
 #card-sg .card {
     font-size: 2.5rem;
-    font-family:"Merriweather" serif;
+    font-family: "Merriweather"serif;
     border: 0;
     padding-top: 20px;
     padding-left: 60px;
@@ -73,7 +78,7 @@ body {background-color: #cdcdd2;}
 
 .card-body h4 {
     text-align: center;
-    padding-left:30px;
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #5f366f;
@@ -88,7 +93,7 @@ body {background-color: #cdcdd2;}
 
 .card-body h3 {
     text-size: 1.5rem;
-    
+
 }
 
 .card-body {
@@ -100,22 +105,19 @@ body {background-color: #cdcdd2;}
 }
 
 #card-links {
-display:flex;
-flex-flow:column;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
-
-
-
 
 
 /* Buttons */
 
 .btn-primary {
-    background-color:#268d84;
-    color:#cdcdd2;
-    font-family: "Merriweather" serif;
+    background-color: #268d84;
+    color: #cdcdd2;
+    font-family: "Merriweather"serif;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -123,96 +125,112 @@ justify-content: center;
 }
 
 .btn-primary:hover {
-    background-color:#082485;
-    color:#cdcdd2;
-    font-family: "Merriweather" serif;
+    background-color: #082485;
+    color: #cdcdd2;
+    font-family: "Merriweather"serif;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-    #referral-button {
-    color:#268d84;
-    font-family: "Merriweather" serif;
+/*form */
+
+#referral-button {
+    color: #268d84;
+    font-family: "Merriweather"serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
 }
 
-    .fa-house {
+
+#referral-form .fa-house {
+    align-items: center;
+    color: #268d84;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+#referral-form {
+    background-color: #5f366f;
+    color: #cdcdd2;
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.form-questions {
+    padding-top: 40px;
+}
+
+/*thank you*/
+
+.thank-you p {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+}
+
+.thank-you h1 {
+    text-align: center;
+    color: #5f366f;
+    padding-top: 30px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #082485;
+    color: #cdcdd2;
+    text-align: center;
+}
+
+footer p a {
+    padding-left: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+footer i a {
+    font-size: 1.5rem;
+}
+
+
+/* Media query */
+@media only screen and (min-width: 768px) {
+    #referral-form {
+        background-color: #5f366f;
         color: #cdcdd2;
+        padding-top: 90px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 50px;
+    }
+
+    #referral-form .fa-house {
+        align-items: center;
+        color: #268d84;
         font-size: 2rem;
         padding-bottom: 50px;
     }
 
-    /*form */
-    #referral-form {
-        background-color: #5f366f;
-        color:#cdcdd2;
-        padding-top: 90px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 50px;
-        text-align: left;    
-    }
-
-    #form-picture {
-        position: sticky;
-        top: 0;
-        z-index: -1;
-    }
-
-    .form-page {
-        background-color:#cdcdd2;
-    }
-
-    .form-questions {
-        padding-top: 40px;
-    }
-
-    /* Footer */
-
-    footer {
-        background-color: #082485;
-        color: #cdcdd2;
-        text-align: center;
-    }
-
-    footer p a {
-        padding-left: 20px;
-        letter-spacing: 2px;
-        text-decoration: none;
-    }
-
-    footer i a {
-        font-size: 1.5rem;
-    }
-
-    
-    /* Media query */
-    @media only screen and (min-width: 768px) {
-        #referral-form {
-            background-color: #5f366f;
-            color:#cdcdd2;
-            padding-top: 90px;
-            padding-left: 300px;
-            padding-right: 300px;
-            padding-bottom: 50px;
-            text-align: center;
-        }
-    }    
-
     #card-links {
-        display:flex;
-        flex-flow:row;
+        display: flex;
+        flex-flow: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        }
+    }
 
-        .sm-card {
-            padding: 20px;
-        }
+    .sm-card {
+        padding: 20px;
+    }
+}
+
 
 @media only screen and (max-width: 481px) {
     #herotext {
@@ -220,6 +238,6 @@ justify-content: center;
         text-align: center;
         padding-left: 5px;
         padding-right: 5px;
-    
+
     }
 }
