@@ -22,12 +22,18 @@ p {
     font-weight: bolder;
     font-size: 0.75rem;
     margin-bottom: 0%;
-    text-align: center;
     text-decoration: none;
     position: absolute;
     left: 0px;
     padding-top: 25px;
     padding-bottom: 5;
+    
+}
+
+.custom-nav a {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 /* Body */
@@ -157,7 +163,6 @@ text-align: center;
     font-size: 2rem;
     margin: 20px;
     padding: 10px;
-    padding-bottom: 10px;
     border: #268d84 outset 2px;
 }
 
