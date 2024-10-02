@@ -153,10 +153,12 @@ text-align: center;
 
 
 #referral-form .fa-house {
-    align-items: center;
     color: #268d84;
     font-size: 2rem;
-    padding-bottom: 50px;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: #268d84 outset 2px;
 }
 
 #referral-form {
@@ -166,7 +168,7 @@ text-align: center;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .form-questions {
