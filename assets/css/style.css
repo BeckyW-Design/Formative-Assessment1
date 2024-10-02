@@ -78,6 +78,18 @@ p {
     text-align: center;
 }
 
+#card-links {
+display:flex;
+flex-flow:column;
+align-items: center;
+justify-content: center;
+}
+
+#card-links .sm-card{
+    text-align:center;
+    padding-top: 20px;
+}
+
 
 
 /* Buttons */
@@ -89,7 +101,6 @@ p {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
-    width:300px;
     border: 0;
 }
 
@@ -172,6 +183,18 @@ p {
             text-align: center;
         }
     }    
+
+    #card-links {
+        display:flex;
+        flex-flow:row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .sm-card {
+            padding: 20px;
+        }
 
 @media only screen and (max-width: 481px) {
     #herotext {
