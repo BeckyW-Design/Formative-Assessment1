@@ -28,6 +28,9 @@ p {
     padding-bottom:5;
 }
 
+/* Body */
+
+body {background-color: #cdcdd2;}
 
 /* Hero */
 .jumbotron {
@@ -60,8 +63,6 @@ p {
 }
 
 #card-sg .card {
-    background-color: #082485;
-    color: #cdcdd2;
     font-size: 2.5rem;
     font-family:"Merriweather" serif;
     border: 0;
@@ -72,6 +73,26 @@ p {
 
 .card-body h4 {
     text-align: center;
+    padding-left:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5f366f;
+}
+
+.card-body h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #268d84;
+}
+
+.card-body h3 {
+    text-size: 1.5rem;
+    
+}
+
+.card-body {
+    padding-top: 30px;
 }
 
 #sg-button .btn-primary {
@@ -85,10 +106,7 @@ align-items: center;
 justify-content: center;
 }
 
-#card-links .sm-card{
-    text-align:center;
-    padding-top: 20px;
-}
+
 
 
 
