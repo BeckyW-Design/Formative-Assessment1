@@ -243,9 +243,8 @@ footer i a {
 
     .sm-card {
         padding: 20px;
-    }
 }
-
+}
 
 @media only screen and (max-width: 481px) {
     #herotext {
@@ -254,5 +253,9 @@ footer i a {
         padding-left: 5px;
         padding-right: 5px;
 
+    }
+    .sm-card {
+        padding: 20px;
+        padding-top: 20px;
     }
 }
